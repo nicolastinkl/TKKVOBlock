@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93BE398B192C7881006061EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BE398A192C7881006061EF /* Foundation.framework */; };
+		93BE398D192C7881006061EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BE398C192C7881006061EF /* CoreGraphics.framework */; };
+		93BE398F192C7881006061EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BE398E192C7881006061EF /* UIKit.framework */; };
+		93BE3995192C7881006061EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93BE3993192C7881006061EF /* InfoPlist.strings */; };
+		93BE3997192C7881006061EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BE3996192C7881006061EF /* main.m */; };
+		93BE399B192C7881006061EF /* TKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BE399A192C7881006061EF /* TKAppDelegate.m */; };
+		93BE399E192C7881006061EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93BE399C192C7881006061EF /* Main.storyboard */; };
+		93BE39A1192C7881006061EF /* TKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BE39A0192C7881006061EF /* TKViewController.m */; };
+		93BE39A3192C7881006061EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93BE39A2192C7881006061EF /* Images.xcassets */; };
+		93BE39AA192C7881006061EF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BE39A9192C7881006061EF /* XCTest.framework */; };
+		93BE39AB192C7881006061EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BE398A192C7881006061EF /* Foundation.framework */; };
+		93BE39AC192C7881006061EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BE398E192C7881006061EF /* UIKit.framework */; };
+		93BE39B4192C7881006061EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93BE39B2192C7881006061EF /* InfoPlist.strings */; };
+		93BE39B6192C7881006061EF /* TKKVOBlockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BE39B5192C7881006061EF /* TKKVOBlockTests.m */; };
+		93BE39C2192C795D006061EF /* NSObject+TKBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BE39C1192C795D006061EF /* NSObject+TKBlock.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93BE39AD192C7881006061EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93BE397F192C7881006061EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93BE3986192C7881006061EF;
+			remoteInfo = TKKVOBlock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93BE3987192C7881006061EF /* TKKVOBlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TKKVOBlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93BE398A192C7881006061EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		93BE398C192C7881006061EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		93BE398E192C7881006061EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		93BE3992192C7881006061EF /* TKKVOBlock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TKKVOBlock-Info.plist"; sourceTree = "<group>"; };
+		93BE3994192C7881006061EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93BE3996192C7881006061EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93BE3998192C7881006061EF /* TKKVOBlock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TKKVOBlock-Prefix.pch"; sourceTree = "<group>"; };
+		93BE3999192C7881006061EF /* TKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKAppDelegate.h; sourceTree = "<group>"; };
+		93BE399A192C7881006061EF /* TKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKAppDelegate.m; sourceTree = "<group>"; };
+		93BE399D192C7881006061EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93BE399F192C7881006061EF /* TKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKViewController.h; sourceTree = "<group>"; };
+		93BE39A0192C7881006061EF /* TKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKViewController.m; sourceTree = "<group>"; };
+		93BE39A2192C7881006061EF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		93BE39A8192C7881006061EF /* TKKVOBlockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TKKVOBlockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93BE39A9192C7881006061EF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		93BE39B1192C7881006061EF /* TKKVOBlockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TKKVOBlockTests-Info.plist"; sourceTree = "<group>"; };
+		93BE39B3192C7881006061EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93BE39B5192C7881006061EF /* TKKVOBlockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKKVOBlockTests.m; sourceTree = "<group>"; };
+		93BE39C0192C795D006061EF /* NSObject+TKBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+TKBlock.h"; sourceTree = "<group>"; };
+		93BE39C1192C795D006061EF /* NSObject+TKBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TKBlock.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93BE3984192C7881006061EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93BE398D192C7881006061EF /* CoreGraphics.framework in Frameworks */,
+				93BE398F192C7881006061EF /* UIKit.framework in Frameworks */,
+				93BE398B192C7881006061EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93BE39A5192C7881006061EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93BE39AA192C7881006061EF /* XCTest.framework in Frameworks */,
+				93BE39AC192C7881006061EF /* UIKit.framework in Frameworks */,
+				93BE39AB192C7881006061EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93BE397E192C7881006061EF = {
+			isa = PBXGroup;
+			children = (
+				93BE39BF192C7925006061EF /* TKKVOBlock-Code */,
+				93BE3990192C7881006061EF /* TKKVOBlock */,
+				93BE39AF192C7881006061EF /* TKKVOBlockTests */,
+				93BE3989192C7881006061EF /* Frameworks */,
+				93BE3988192C7881006061EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93BE3988192C7881006061EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93BE3987192C7881006061EF /* TKKVOBlock.app */,
+				93BE39A8192C7881006061EF /* TKKVOBlockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93BE3989192C7881006061EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93BE398A192C7881006061EF /* Foundation.framework */,
+				93BE398C192C7881006061EF /* CoreGraphics.framework */,
+				93BE398E192C7881006061EF /* UIKit.framework */,
+				93BE39A9192C7881006061EF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93BE3990192C7881006061EF /* TKKVOBlock */ = {
+			isa = PBXGroup;
+			children = (
+				93BE3999192C7881006061EF /* TKAppDelegate.h */,
+				93BE399A192C7881006061EF /* TKAppDelegate.m */,
+				93BE399C192C7881006061EF /* Main.storyboard */,
+				93BE399F192C7881006061EF /* TKViewController.h */,
+				93BE39A0192C7881006061EF /* TKViewController.m */,
+				93BE39A2192C7881006061EF /* Images.xcassets */,
+				93BE3991192C7881006061EF /* Supporting Files */,
+			);
+			path = TKKVOBlock;
+			sourceTree = "<group>";
+		};
+		93BE3991192C7881006061EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93BE3992192C7881006061EF /* TKKVOBlock-Info.plist */,
+				93BE3993192C7881006061EF /* InfoPlist.strings */,
+				93BE3996192C7881006061EF /* main.m */,
+				93BE3998192C7881006061EF /* TKKVOBlock-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93BE39AF192C7881006061EF /* TKKVOBlockTests */ = {
+			isa = PBXGroup;
+			children = (
+				93BE39B5192C7881006061EF /* TKKVOBlockTests.m */,
+				93BE39B0192C7881006061EF /* Supporting Files */,
+			);
+			path = TKKVOBlockTests;
+			sourceTree = "<group>";
+		};
+		93BE39B0192C7881006061EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93BE39B1192C7881006061EF /* TKKVOBlockTests-Info.plist */,
+				93BE39B2192C7881006061EF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93BE39BF192C7925006061EF /* TKKVOBlock-Code */ = {
+			isa = PBXGroup;
+			children = (
+				93BE39C0192C795D006061EF /* NSObject+TKBlock.h */,
+				93BE39C1192C795D006061EF /* NSObject+TKBlock.m */,
+			);
+			name = "TKKVOBlock-Code";
+			path = "TKKVOBlock/TKKVOBlock-Code";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93BE3986192C7881006061EF /* TKKVOBlock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93BE39B9192C7881006061EF /* Build configuration list for PBXNativeTarget "TKKVOBlock" */;
+			buildPhases = (
+				93BE3983192C7881006061EF /* Sources */,
+				93BE3984192C7881006061EF /* Frameworks */,
+				93BE3985192C7881006061EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TKKVOBlock;
+			productName = TKKVOBlock;
+			productReference = 93BE3987192C7881006061EF /* TKKVOBlock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93BE39A7192C7881006061EF /* TKKVOBlockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93BE39BC192C7881006061EF /* Build configuration list for PBXNativeTarget "TKKVOBlockTests" */;
+			buildPhases = (
+				93BE39A4192C7881006061EF /* Sources */,
+				93BE39A5192C7881006061EF /* Frameworks */,
+				93BE39A6192C7881006061EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93BE39AE192C7881006061EF /* PBXTargetDependency */,
+			);
+			name = TKKVOBlockTests;
+			productName = TKKVOBlockTests;
+			productReference = 93BE39A8192C7881006061EF /* TKKVOBlockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93BE397F192C7881006061EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___TINKL___";
+				TargetAttributes = {
+					93BE39A7192C7881006061EF = {
+						TestTargetID = 93BE3986192C7881006061EF;
+					};
+				};
+			};
+			buildConfigurationList = 93BE3982192C7881006061EF /* Build configuration list for PBXProject "TKKVOBlock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93BE397E192C7881006061EF;
+			productRefGroup = 93BE3988192C7881006061EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93BE3986192C7881006061EF /* TKKVOBlock */,
+				93BE39A7192C7881006061EF /* TKKVOBlockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93BE3985192C7881006061EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93BE39A3192C7881006061EF /* Images.xcassets in Resources */,
+				93BE3995192C7881006061EF /* InfoPlist.strings in Resources */,
+				93BE399E192C7881006061EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93BE39A6192C7881006061EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93BE39B4192C7881006061EF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93BE3983192C7881006061EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93BE39A1192C7881006061EF /* TKViewController.m in Sources */,
+				93BE3997192C7881006061EF /* main.m in Sources */,
+				93BE39C2192C795D006061EF /* NSObject+TKBlock.m in Sources */,
+				93BE399B192C7881006061EF /* TKAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93BE39A4192C7881006061EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93BE39B6192C7881006061EF /* TKKVOBlockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93BE39AE192C7881006061EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93BE3986192C7881006061EF /* TKKVOBlock */;
+			targetProxy = 93BE39AD192C7881006061EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93BE3993192C7881006061EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93BE3994192C7881006061EF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		93BE399C192C7881006061EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93BE399D192C7881006061EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93BE39B2192C7881006061EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93BE39B3192C7881006061EF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93BE39B7192C7881006061EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		93BE39B8192C7881006061EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93BE39BA192C7881006061EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TKKVOBlock/TKKVOBlock-Prefix.pch";
+				INFOPLIST_FILE = "TKKVOBlock/TKKVOBlock-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		93BE39BB192C7881006061EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TKKVOBlock/TKKVOBlock-Prefix.pch";
+				INFOPLIST_FILE = "TKKVOBlock/TKKVOBlock-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		93BE39BD192C7881006061EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TKKVOBlock.app/TKKVOBlock";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TKKVOBlock/TKKVOBlock-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TKKVOBlockTests/TKKVOBlockTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		93BE39BE192C7881006061EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TKKVOBlock.app/TKKVOBlock";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TKKVOBlock/TKKVOBlock-Prefix.pch";
+				INFOPLIST_FILE = "TKKVOBlockTests/TKKVOBlockTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93BE3982192C7881006061EF /* Build configuration list for PBXProject "TKKVOBlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93BE39B7192C7881006061EF /* Debug */,
+				93BE39B8192C7881006061EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93BE39B9192C7881006061EF /* Build configuration list for PBXNativeTarget "TKKVOBlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93BE39BA192C7881006061EF /* Debug */,
+				93BE39BB192C7881006061EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		93BE39BC192C7881006061EF /* Build configuration list for PBXNativeTarget "TKKVOBlockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93BE39BD192C7881006061EF /* Debug */,
+				93BE39BE192C7881006061EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93BE397F192C7881006061EF /* Project object */;
+}
